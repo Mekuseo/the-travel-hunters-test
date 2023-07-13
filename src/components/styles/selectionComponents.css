@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.selection-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.room-details-box {
+    padding: 20px
+}
+
+.property-header {
+    font-weight: bold;
+}
+
+.counter-box {
+    padding: 10px 20px;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.6);
+    margin: 15px 0 30px 0;
+}
+
+.category-selection {
+    text-align: center;
+}
+
+.category-btn {
+    border-radius: 5px;
+    border: none;
+    width: 40%;
+    height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.category-btn:hover {
+    background-color: #888787;
+    color: white;
+}
+
+.category-dropdown {
+    max-height: 280px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    border: 1px solid #929292;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.category-dropdown ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #EEEEEE;
+    padding: 0;
+    margin: 0;
+}
+
+.category-dropdown li {
+    cursor: pointer;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.category-dropdown li:hover {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.counter {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.counter-btn {
+    background-color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin: 10px 0;
+    border: #929292 1px solid;
+    color: #929292;
+    font-size: 20px;
+    text-align: center;
+}
+
+.number {
+    color: #6E9E76;
+    font-weight: 900;
+}
+
+.input-box-roomType {
+    width: 50%;
+    padding: 5px;
+    margin: 10px 0;
+    color: #5F5E5E;
+    font-size: 12px;
+    border: #929292 1px solid;
+    box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.flex-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+
+.flex-form input[type='checkbox'] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 23px;
+    height: 23px;
+    border-radius: 7px;
+    border: 2px solid #929292;
+    outline: none;
+    cursor: pointer;
+    /* position: relative; */
+    margin: 0 12px;
+}
+
+.flex-form input[type='checkbox']:checked:before {
+    content: '\2714';
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #6e9e76;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.flex-form>div {
+    margin: 15px;
+}
+
+.flex-form label {
+    color: #383737;
+    cursor: pointer;
+}
+
+.flex-form div {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-btn {
+    width: 23px;
+    height: 23px;
+    background-color: #6E9E76;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.room-rates {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.room-rates div input {
+    width: 10%;
+    font-size: 10px;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    border: #929292 1px solid;
+}
+
+.room-rates div > * {
+    margin: 2px 0;
+}
+
+.input-longer {
+    width: 30% !important;
+}
+
+.input-shorter {
+    width: 20% !important;
+}
+
+.warning {
+    color: red;
+    font-size: 10px;
+}
+
+.late-night-flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.counter-box h4 {
+    padding: 10px 0;
+}
+
+.late-night-bullets {
+    display: flex;
+    width: 23px;
+    height: 23px;
+    background-color: #6E9E76;
+    padding: 5px;
+    margin: 2px 9px 2px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.night-warning {
+    color: red !important;
+    font-size: 20px;
+    margin-top: 15px; 
+}
+
+.night-warning-bullet {
+    background-color: transparent;
+    border: red 1px solid;
+}
+
+.night-warning span {
+    font-size: 10px;
+    color: #6E9E76;
+}
+
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    grid-gap: 10px; /* Adjust the gap between checkboxes */
+}

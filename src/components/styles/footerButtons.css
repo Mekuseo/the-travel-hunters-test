@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-box {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.save-btn {
+    border: #6E9E76 1px solid;
+    color: #6E9E76;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.nxt-btn {
+    width: 150px;
+    margin-left: 20px;
+    background-color: #6E9E76;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 10px;
+}
+
+.prev-btn {
+    width: 150px;
+    border: #6E9E76 1px solid;
+    color: #6E9E76;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 10px;
+}
