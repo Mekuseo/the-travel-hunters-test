@@ -167,12 +167,12 @@ export const RoomDetails = () => {
                 <div>
                     <h4>Weekly rates</h4>
                     <p>Discount that will apply when guest(s) book for 7 nights and more, up untill 27 nights</p>
-                    <input type="text" placeholder="10% off" className="input-box-price" /><span><input type='text' placeholder='input price' className='input-box-price input-shorter'></input></span>
+                    <input type="text" placeholder="10% off" className="input-box-price" /><span><input type='number' placeholder='input price' className='input-box-price input-shorter'></input></span>
                 </div>
                 <div>
                     <h4>Monthly  rates</h4>
                     <p>Discount that will apply when guest(s) book for 28 nights, and more</p>
-                    <input type="text" placeholder="10% off" className="input-box-price" /><span><input type='text' placeholder='input price' className='input-box-price input-shorter'></input></span>
+                    <input type="text" placeholder="10% off" className="input-box-price" /><span><input type='number' placeholder='input price' className='input-box-price input-shorter'></input></span>
                 </div>
                 <small className='warning'>Guests will receive the lowest rate if multiple rates apply*</small>
             </div>
